@@ -18,12 +18,16 @@ document.getElementById("backToTop").addEventListener("click", () => {
   var chatBody = document.getElementById("chatBody");
 
   var script = [
-    { side: "in", text: "Oi! Queria pedir um hambúrguer e uma coca." },
-    { side: "out", text: "Claro! 🍔 Qual hambúrguer você gostaria?" },
-    { side: "in", text: "Um X-Bacon com batata, e uma Coca Zero." },
-    { side: "out", text: "Perfeito! Seu X-Bacon com batata + Coca Zero fica R$ 42,90. Quer adicionar algum molho?" },
-    { side: "in", text: "Pode colocar barbecue. É só isso." },
-    { side: "out", text: "Fechado! Seu pedido ficou em R$ 45,90. Posso finalizar o pedido para você?" }
+    { side: "in", text: "Oi, quero pedir" },
+    { side: "out", text: "Oi! Eu sou a MarIA 💁 Pra começar, qual é o seu nome?" },
+    { side: "in", text: "Ana" },
+    { side: "out", text: "Prazer, Ana! Vai ser aqui na mesa, delivery ou retirada?" },
+    { side: "in", text: "Delivery, Rua das Flores 123" },
+    { side: "out", text: "Show! O que você vai querer? 😋" },
+    { side: "in", text: "1 X-Bacon e uma Coca lata" },
+    { side: "out", text: "Perfeito! Fechou R$ 34,90. Como prefere pagar: Pix, dinheiro ou cartão?" },
+    { side: "in", text: "Pix" },
+    { side: "out", text: "Aqui está o código Pix copia e cola 📱 Assim que cair, seu pedido já é enviado pra cozinha!" }
   ];
 
   function el(tag, className, text) {

@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gerency AI — pedidos e atendimento com IA</title>
+  <title>Gerency AI — a MarIA atende seu restaurante no WhatsApp</title>
   <meta name="description"
-    content="A Gerency AI atende seus clientes pelo WhatsApp, entende pedidos e integra tudo ao seu restaurante ou mercado.">
+    content="A MarIA, IA da Gerency AI, atende seus clientes no WhatsApp, monta o pedido, cobra por Pix antes de mandar pra cozinha e avisa o garçom na hora — tudo sem sair da conversa.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Sora:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -22,6 +22,7 @@
   <header class="site-header">
     <div class="wrap header-row">
       <a href="#topo" class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
         Gerency AI
       </a>
 
@@ -41,19 +42,19 @@
     <section class="hero" id="topo">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">pedidos e atendimento com IA</p>
+          <p class="eyebrow">a atendente de IA do seu restaurante</p>
 
           <h1>
-            Seu cliente pede.<br>
-            A IA entende.<br>
-            <em>Seu negócio</em><br>
-            vende.
+            Sua cliente<br>
+            pede no WhatsApp.<br>
+            <em>A MarIA</em><br>
+            resolve tudo.
           </h1>
 
           <p class="lede">
-            A Gerency AI atende seus clientes pelo WhatsApp, entende pedidos por texto ou áudio,
-            consulta seu catálogo e envia tudo para o seu sistema — sem depender de um atendente
-            para responder cada mensagem.
+            A MarIA atende seus clientes pelo WhatsApp, entende pedido por texto ou áudio,
+            já sabe se você atende mesa, delivery ou retirada, cobra por Pix antes de mandar
+            pra cozinha e avisa o garçom quando pedem a conta — direto na conversa.
           </p>
 
           <div class="hero-actions">
@@ -61,14 +62,14 @@
             <a href="#como-funciona" class="btn btn-ghost">Ver como funciona ↓</a>
           </div>
 
-          <p class="hero-note">Atendimento 24 horas · pedidos automatizados · integração com seu negócio</p>
+          <p class="hero-note">Atendimento 24 horas · Pix confirmado antes do pedido · fala o idioma do seu cliente</p>
         </div>
 
         <div class="hero-visual" aria-hidden="true">
           <div class="chat-frame">
             <div class="chat-frame-bar">
               <span class="dot"></span>
-              <span class="chat-frame-title">Gerency AI · pedidos</span>
+              <span class="chat-frame-title">MarIA · pedidos no WhatsApp</span>
               <span class="status"><i class="status-dot"></i>on-line</span>
             </div>
 
@@ -82,41 +83,70 @@
       </div>
     </section>
 
+    <!-- LIVE STATUS TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span class="ticker-set">
+          <span class="ticker-item"><i class="ticker-dot"></i>Pedido confirmado</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Pix aprovado</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Garçom chamado</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Conta solicitada</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Estoque atualizado</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Mesa liberada</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Cupom aplicado</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Elogio registrado</span>
+        </span>
+        <span class="ticker-set">
+          <span class="ticker-item"><i class="ticker-dot"></i>Pedido confirmado</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Pix aprovado</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Garçom chamado</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Conta solicitada</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Estoque atualizado</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Mesa liberada</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Cupom aplicado</span>
+          <span class="ticker-item"><i class="ticker-dot"></i>Elogio registrado</span>
+        </span>
+      </div>
+    </div>
+
     <!-- COMO FUNCIONA -->
     <section class="section how" id="como-funciona">
       <div class="wrap">
         <p class="eyebrow">o caminho de um pedido</p>
 
         <h2>
-          Do "oi" ao pedido no sistema,
-          sem complicação
+          Do "oi" à cozinha,
+          sem passar por ninguém
         </h2>
 
         <ol class="steps">
           <li class="step">
-            <span class="step-index">chegada</span>
-            <h3>O cliente manda uma mensagem</h3>
+            <span class="step-index">atendimento</span>
+            <h3>A MarIA se apresenta e organiza o atendimento</h3>
             <p>
-              Pelo WhatsApp, o cliente pode escrever ou mandar um áudio com o que quer pedir.
-              A Gerency AI recebe tudo automaticamente.
+              Pergunta o nome, se é mesa, delivery ou retirada — só as opções que o seu
+              estabelecimento realmente atende — e detecta o idioma do cliente pra responder
+              do mesmo jeito, mesmo por áudio.
             </p>
           </li>
 
           <li class="step">
-            <span class="step-index">entendimento</span>
-            <h3>A IA entende o pedido</h3>
+            <span class="step-index">pedido e pagamento</span>
+            <h3>Monta o pedido e resolve o pagamento</h3>
             <p>
-              Ela interpreta a mensagem, consulta produtos, preços, adicionais e disponibilidade,
-              entende o contexto da conversa e monta o pedido corretamente.
+              Consulta seu cardápio, adicionais e estoque em tempo real. Em delivery, pergunta
+              a forma de pagamento antes de criar o pedido — se for Pix, gera o código
+              copia e cola na hora.
             </p>
           </li>
 
           <li class="step">
-            <span class="step-index">execução</span>
-            <h3>O pedido chega à operação</h3>
+            <span class="step-index">operação</span>
+            <h3>Confirma e avisa a operação</h3>
             <p>
-              Depois da confirmação, o pedido é enviado para o sistema. Cozinha, estoque,
-              caixa e entrega recebem as informações necessárias para seguir o fluxo.
+              No Pix, o pedido só vai pra cozinha depois do pagamento confirmado. No salão,
+              o cliente chama o garçom ou pede a conta pelo próprio chat, e tudo aparece
+              na hora no seu painel — com o QR Code da mesa saindo direto na sua impressora.
             </p>
           </li>
         </ol>
@@ -126,11 +156,11 @@
     <!-- BENEFÍCIOS -->
     <section class="section benefits" id="beneficios">
       <div class="wrap">
-        <p class="eyebrow">por que automatizar</p>
+        <p class="eyebrow">o que a MarIA faz de diferente</p>
 
         <h2>
-          Menos mensagens para responder.<br>
-          Mais pedidos para vender.
+          Não é só um chatbot.<br>
+          É atendimento que resolve.
         </h2>
 
         <div class="bubble-grid">
@@ -138,31 +168,17 @@
           <article class="bubble-card">
             <span class="bubble-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6">
-                <circle cx="12" cy="12" r="9" />
-                <path d="M12 7v5l3 3" />
+                <rect x="3" y="7" width="18" height="13" rx="2" />
+                <path d="M7 7V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v2M8 13h.01M12 13h.01M16 13h.01" />
               </svg>
             </span>
 
-            <h3>Atende 24 horas</h3>
+            <h3>Pix confirmado antes da cozinha</h3>
 
             <p>
-              Seu cliente pode fazer pedidos de manhã, à noite, no domingo ou no feriado.
-              A Gerency AI continua atendendo sem precisar de plantão.
-            </p>
-          </article>
-
-          <article class="bubble-card">
-            <span class="bubble-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-              </svg>
-            </span>
-
-            <h3>Entende texto e áudio</h3>
-
-            <p>
-              O cliente não precisa seguir um roteiro. Pode escrever do seu jeito ou mandar
-              um áudio, e a IA transforma a conversa em um pedido estruturado.
+              Em delivery, a MarIA pergunta a forma de pagamento antes de criar o pedido.
+              Se for Pix, gera o copia e cola na hora — e só manda pra cozinha depois
+              que o pagamento cai. Sem pedido fantasma.
             </p>
           </article>
 
@@ -173,11 +189,60 @@
               </svg>
             </span>
 
-            <h3>Erra menos no pedido</h3>
+            <h3>Só oferece o que você atende</h3>
 
             <p>
-              Produtos, adicionais, quantidades, observações e valores são organizados antes
-              de chegar à operação, reduzindo erros causados por mensagens confusas.
+              Mesa, delivery ou retirada: você configura como seu estabelecimento funciona
+              e a MarIA nunca propõe uma opção que você não tem.
+            </p>
+          </article>
+
+          <article class="bubble-card">
+            <span class="bubble-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+              </svg>
+            </span>
+
+            <h3>Entende texto e áudio, em qualquer idioma</h3>
+
+            <p>
+              O cliente escreve ou manda áudio do jeito dele. A MarIA identifica o idioma
+              da conversa e responde no mesmo, sem forçar ninguém a mudar como fala.
+            </p>
+          </article>
+
+          <article class="bubble-card">
+            <span class="bubble-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6">
+                <rect x="4" y="4" width="6" height="6" />
+                <rect x="14" y="4" width="6" height="6" />
+                <rect x="4" y="14" width="6" height="6" />
+                <path d="M14 15h3v3h3" />
+              </svg>
+            </span>
+
+            <h3>QR Code de mesa na sua impressora</h3>
+
+            <p>
+              A MarIA gera o QR Code do WhatsApp do seu estabelecimento e imprime direto
+              na sua impressora térmica — o cliente escaneia e já cai pedindo.
+            </p>
+          </article>
+
+          <article class="bubble-card">
+            <span class="bubble-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6">
+                <path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" />
+                <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+              </svg>
+            </span>
+
+            <h3>Conta e garçom sem gritar pelo salão</h3>
+
+            <p>
+              O cliente pede a conta ou chama o garçom pelo próprio chat, e o aviso
+              aparece na hora no seu painel — com o número da comanda de volta pra ele.
             </p>
           </article>
 
@@ -189,11 +254,11 @@
               </svg>
             </span>
 
-            <h3>Conecta o negócio inteiro</h3>
+            <h3>Estoque real, sem vender o que acabou</h3>
 
             <p>
-              O pedido não para no WhatsApp. A Gerency AI conecta atendimento, catálogo,
-              estoque, cozinha, caixa e entrega em um único fluxo.
+              Cada pedido reserva e debita do seu estoque automaticamente, evitando
+              vender um item que já zerou.
             </p>
           </article>
 
@@ -206,8 +271,9 @@
       <div class="wrap quote-wrap">
         <blockquote>
           <p>
-            “Antes, a equipe perdia boa parte do tempo respondendo mensagem e conferindo pedido.
-            Agora a IA faz o atendimento inicial e entrega o pedido já organizado para a operação.”
+            “Antes a gente corria atrás de pedido de delivery que nunca era pago. Agora o Pix
+            já vem confirmado antes de a cozinha ver o pedido — e o garçom só é chamado
+            quando é pra valer.”
           </p>
 
           <footer>
@@ -228,20 +294,14 @@
         </h2>
 
         <p class="sponsors-note">
-          Conecte seus canais de atendimento e sistemas para transformar conversas
-          em pedidos prontos para a operação.
+          Conecte seu Mercado Pago para Pix, seu WhatsApp e sua impressora térmica
+          para transformar conversas em pedidos prontos para a cozinha.
         </p>
 
         <div class="sponsor-grid">
           <div class="sponsor-tile">
             <a href="https://adsisistemas.com.br/" target="_blank">
-              <img
-                src="assets/img/sponsor-01.jpg"
-                alt="Logotipo do parceiro 1"
-                loading="lazy"
-                width="160"
-                height="60"
-              >
+              <img src="assets/img/sponsor-01.jpg" alt="Logotipo do parceiro 1" loading="lazy" width="160" height="60">
             </a>
           </div>
         </div>
@@ -261,8 +321,8 @@
         <h2>Vamos automatizar seus pedidos?</h2>
 
         <p>
-          Conte como funciona o atendimento do seu restaurante ou mercado hoje
-          e veja como a Gerency AI pode cuidar dos pedidos para você.
+          Conte como funciona o atendimento do seu restaurante, bar ou lanchonete hoje
+          e veja como a MarIA pode cuidar dos pedidos para você.
         </p>
 
         <a href="https://wa.me/5567998718376" class="btn btn-primary" target="_blank">
@@ -293,7 +353,7 @@
       </span>
 
       <p>
-        © 2026 Gerency AI. Atendimento inteligente para restaurantes e mercados.
+        © 2026 Gerency AI. A MarIA atende seu restaurante, bar ou lanchonete pelo WhatsApp.
       </p>
     </div>
   </footer>
